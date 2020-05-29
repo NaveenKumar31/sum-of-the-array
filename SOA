@@ -1,0 +1,17 @@
+public static int arraySum(List<Integer> numbers) {
+        int i=0;
+        for(int num : numbers ){
+            i = i + num;
+        }
+        return i;    
+     }
+
+}
+
+
+
+ output :
+  5 
+  
+  
+   1+2+=3+4+4=5 =    15
